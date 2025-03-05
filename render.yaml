@@ -4,4 +4,5 @@ services:
     name: mysite
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn QuizApp.asgi:application -k uvicorn.workers.UvicornWorker"
+#    startCommand: "python -m gunicorn QuizApp.asgi:application -k uvicorn.workers.UvicornWorker"
+    startCommand: "uvicorn QuizApp.asgi:application"
