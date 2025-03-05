@@ -1,0 +1,7 @@
+django
+django-model-utils
+crispy-bootstrap5
+django-model-utils
+gunicorn
+whitenoise
+uvicorn
