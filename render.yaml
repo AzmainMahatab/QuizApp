@@ -1,7 +1,7 @@
 services:
   - type: web
     plan: free
-    name: mysite
+    name: QuizApp
     runtime: python
     buildCommand: "./build.sh"
 #    startCommand: "python -m gunicorn QuizApp.asgi:application -k uvicorn.workers.UvicornWorker"
